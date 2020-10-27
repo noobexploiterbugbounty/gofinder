@@ -86,7 +86,6 @@ func main() {
 func findregex(s string) {
 	resp, err := httpClient.Get(s)
 	if err != nil {
-		fmt.Println(err)
 		return
 	}
 	defer resp.Body.Close()
