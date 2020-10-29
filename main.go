@@ -35,6 +35,7 @@ var regexes = map[string]string{
 	"heroku_api":                    "[h|H][e|E][r|R][o|O][k|K][u|U].{0,30}[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}",
 	"mailgun_api":                   "key-[0-9a-zA-Z]{32}",
 	"mailchamp_api":                 "[0-9a-f]{32}-us[0-9]{1,2}",
+	"google_captcha": 		 "6L[0-9A-Za-z-_]{38}",
 	"picatic_api":                   "sk_live_[0-9a-z]{32}",
 	"google_oauth_id":               "[0-9(+-[0-9A-Za-z_]{32}.apps.googleusercontent.com",
 	"google_api":                    "AIza[0-9A-Za-z-_]{35}",
